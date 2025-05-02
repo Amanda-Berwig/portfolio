@@ -4,12 +4,12 @@ import PerfilAmanda from "../assets/perfil-amanda.jpeg";
 const Hero = () => {
   return (
     <section id="home" className="pt-24 pb-12 min-h-screen flex items-center">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+      <div className="container mx-auto px-4 pl-18 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-slate-50">
             Olá, eu sou <span className="text-cyan-200">Amanda Berwig</span>
           </h1>
-          <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-gray-500">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-slate-300">
             Desenvolvedora Front-end
           </h2>
           <p className="text-lg text-gray-500 mb-8 max-w-lg">
