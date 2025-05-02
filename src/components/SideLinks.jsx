@@ -36,13 +36,13 @@ const SideLinks = () => {
           href={link.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-slate-400 hover:text-purple-400 transition-colors"
+          className="text-slate-50 hover:text-cyan-300 transition-colors"
           aria-label={link.label}
         >
           {link.icon}
         </a>
       ))}
-      <div className="w-0.5 h-24 bg-slate-400 mt-4" />
+      <div className="w-0.5 h-24 bg-slate-50 mt-4" />
     </div>
   );
 };
