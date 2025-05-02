@@ -1,70 +1,93 @@
 import React from "react";
+import { motion } from "motion/react";
 import { projects } from "./projects";
 import { ExternalLink } from "lucide-react";
 import Github from "lucide-react/dist/esm/icons/github";
 
 const ProjectsList = () => {
   return (
-    <section id="projects" className="py-16">
-      <div className="container mx-auto px-20">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-800">
+    <section id="projects" className="py-24 ">
+      <div className="container mx-auto px-6 md:px-12">
+        <h2 className="text-3xl font-extrabold text-start text-slate-50 mb-20">
           Meus Projetos
         </h2>
-        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8"> */}
-        <div className="flex flex-wrap gap-8 relative">
-          {projects.map((project) => (
-            <div
+
+        <div className="flex flex-col gap-32">
+          {projects.map((project, index) => (
+            <motion.div
               key={project.id}
-              className="flex rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:shadow-xl hover:-translate-x-2"
+              className={`flex flex-col md:flex-row items-center gap-10 shadow-2xl rounded-2xl ${
+                index % 2 !== 0 ? "md:flex-row-reverse" : ""
+              }`}
+              initial={{ opacity: 0, y: 50 }} // Começa invisível e deslocado pra baixo
+              whileInView={{ opacity: 1, y: 0 }} // Aparece ao entrar na viewport
+              viewport={{ once: true, amount: 0.2 }} // Só anima uma vez quando 30% visível
+              transition={{ duration: 0.6, delay: index * 0.2 }} // Anima em sequência
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-70 object-cover"
-              />
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-2 text-gray-800">
+              {/* Imagem */}
+              <div className="md:w-1/2 w-full group">
+                <div className="relative rounded-lg overflow-hidden transition-transform duration-500 group-hover:scale-105 shadow-md">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="object-cover w-full h-64 md:h-80"
+                  />
+                </div>
+              </div>
+
+              {/* Conteúdo  */}
+              <div
+                className={`md:w-1/2 w-full ${
+                  index % 2 !== 0 ? "text-left md:pl-12" : "text-right md:pr-12"
+                }`}
+              >
+                <h3 className="text-2xl font-bold text-slate-50 mb-4">
                   {project.title}
                 </h3>
-                <p className="text-gray-600 mb-4">{project.description}</p>
-                <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag, index) => (
+
+                <p className="text-white mb-6 leading-relaxed text-justify p-4  ">
+                  {project.description}
+                </p>
+
+                <div
+                  className={`flex flex-wrap gap-2 mb-6 ${
+                    index % 2 !== 0 ? "justify-start" : "justify-end"
+                  }`}
+                >
+                  {project.tags.map((tag, idx) => (
                     <span
-                      key={index}
-                      className="px-3 py-1 bg-purple-200 text-gray-500 text-sm rounded-full"
+                      key={idx}
+                      className="bg-cyan-700 hover:bg-cyan-600 text-white text-sm font-medium px-3 py-1 rounded-full"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
-                <div className="flex space-x-2">
+
+                <div
+                  className={`flex gap-4 ${
+                    index % 2 !== 0 ? "justify-start" : "justify-end"
+                  }`}
+                >
                   <a
                     href={project.github}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2"
+                    className="text-cyan-300 hover:text-white transition-colors duration-300"
                   >
-                    <span>
-                      <Github
-                        size={20}
-                        className="text-black hover:text-purple-400 transition duration-300"
-                      />
-                    </span>
+                    <Github size={22} />
                   </a>
                   <a
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2"
+                    className="text-cyan-300 hover:text-white transition-colors duration-300"
                   >
-                    <ExternalLink
-                      size={20}
-                      className="hover:text-purple-400 transition duration-300"
-                    />
+                    <ExternalLink size={22} />
                   </a>
                 </div>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

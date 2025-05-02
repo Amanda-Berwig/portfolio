@@ -1,8 +1,8 @@
 import P01 from "../../assets/p01.png";
-import P02 from "../../assets/preview-todolist.png";
+import P02 from "../../assets/preview-todo.png";
 import P03 from "../../assets/preview-organo.png";
 import P04 from "../../assets/preview-codeconnect.png";
-// import P05 from "../../assets/preview-avanti.png";
+import P05 from "../../assets/preview-innovation.png";
 import P06 from "../../assets/preview-fokus.png";
 import P07 from "../../assets/preview-jogo.png";
 import P08 from "../../assets/preview-alurabooks.png";
@@ -53,7 +53,7 @@ export const projects = [
     title: "Avanti Innovation Class",
     description:
       "Site responsivo com campo de busca interativo e carrosséis funcionais",
-    image: P04,
+    image: P05,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Amanda-Berwig/Avanti--innovation-class",
     demo: "https://amanda-berwig.github.io/Avanti--innovation-class/",
@@ -71,8 +71,7 @@ export const projects = [
   {
     id: 7,
     title: "Jogo do Número Secreto",
-    description:
-      "Aplicação simples desenvolvida com JavaScript puro, onde o usuário tenta adivinhar um número aleatório entre 1 e 10. Inclui feedback de voz com a biblioteca ResponsiveVoice, tornando a experiência mais interativa e acessível",
+    description: `Aplicação interativa na qual o usuário deve adivinhar um número aleatório entre 1 e 10. Utiliza ResponsiveVoice para fornecer feedback por voz, tornando a experiência mais dinâmica e acessível.`,
     image: P07,
     tags: ["HTML", "CSS", "JavaScript", "Responsive voice"],
     github: "https://github.com/Amanda-Berwig/jogo-do-numero-secreto",
