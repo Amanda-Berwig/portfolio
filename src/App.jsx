@@ -5,6 +5,7 @@ import About from "./components/About";
 import Projects from "./components/Projects/ProjectsList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import SideLinks from "./components/SideLinks";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Contact />
         <Footer />
       </main>
+      <Footer />
+      <SideLinks />
     </div>
   );
 }
