@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="mb-2 md:mb-0">
-            <p className="text-gray-600">
+            <p className="text-slate-50">
               Desenvolvedora Front-end especializada em criar experiências web
               incríveis.
             </p>
@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row md:items-center"></div>
         </div>
         <div className="border-t border-gray-400 mt-8 pt-8 flex flex-col md:flex-row justify-center items-center">
-          <p className="text-gray-600 text-sm mb-4 md:mb-0">
+          <p className="text-slate-50 text-sm mb-4 md:mb-0">
             &copy; {currentYear} - Amanda Berwig
           </p>
         </div>
