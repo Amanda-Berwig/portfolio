@@ -14,7 +14,7 @@ export const projects = [
     description:
       "Aplicativo que consome a API do GitHub para buscar usuários e exibir informações detalhadas.",
     image: P01,
-    tags: ["React", "Tailwind CSS", "API"],
+    tags: ["React", "Tailwind CSS", "Git Hub API"],
     github: "https://github.com/Amanda-Berwig/busca-github",
     demo: "https://amanda-berwig.github.io/busca-github/",
   },
