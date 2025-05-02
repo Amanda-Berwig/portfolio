@@ -1,5 +1,6 @@
 import React from "react";
 import { projects } from "./projects";
+import { ExternalLink } from "lucide-react";
 
 const ProjectsList = () => {
   return (
@@ -47,9 +48,9 @@ const ProjectsList = () => {
                     href={project.demo}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 border border-blue-600 text-blue-600 rounded hover:bg-blue-50 transition duration-300"
+                    className="px-4 py-2 "
                   >
-                    Ver Demo
+                    <ExternalLink className="hover:text-purple-400 transition duration-300" />
                   </a>
                 </div>
               </div>
