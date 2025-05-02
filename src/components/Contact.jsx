@@ -30,13 +30,13 @@ const Contact = () => {
   return (
     <section id="contact" className="py-16 ">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">
+        <h2 className="text-2xl font-bold text-center mb-8 text-slate-50">
           Entre em Contato
         </h2>
         <div className="max-w-4xl mx-auto flex flex-col justify-center md:flex-row gap-8">
           {/* Contact Form */}
-          <div className="md:w-2/3 bg-gray-100 p-6 rounded-lg shadow-md">
-            <h3 className="text-lg font-semibold mb-2 text-gray-800">
+          <div className="md:w-2/3 bg-slate-200 p-6 rounded-lg shadow-md">
+            <h3 className="text-lg font-semibold mb-2 text-gray-700">
               Envie uma mensagem
             </h3>
             <form ref={form} onSubmit={sendEmail}>
@@ -51,7 +51,7 @@ const Contact = () => {
                   type="text"
                   id="name"
                   name="name"
-                  className="w-full px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  className="w-full px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300"
                   placeholder="Seu nome"
                   required
                 />
@@ -67,7 +67,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="email"
-                  className="w-full px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  className="w-full px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300"
                   placeholder="seu.email@exemplo.com"
                   required
                 />
@@ -83,7 +83,7 @@ const Contact = () => {
                   type="text"
                   id="subject"
                   name="subject"
-                  className="w-full px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  className="w-full px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300"
                   placeholder="Assunto da mensagem"
                   required
                 />
@@ -99,14 +99,14 @@ const Contact = () => {
                   id="message"
                   name="message"
                   rows="5"
-                  className="w-full h-20 px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-purple-400"
+                  className="w-full h-20 px-4 py-2 border border-gray-300 placeholder:text-sm rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-300"
                   placeholder="Como eu posso te ajudar?"
                   required
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="px-6 py-3 bg-purple-400 text-white rounded-md hover:bg-purple-300 transition duration-300 w-full md:w-auto"
+                className="px-6 py-3 text-white rounded-md bg-cyan-700 hover:bg-cyan-600 transition duration-300 w-full md:w-auto"
               >
                 Enviar Mensagem
               </button>
