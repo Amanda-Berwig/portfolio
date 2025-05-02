@@ -29,7 +29,7 @@ const SideLinks = () => {
   ];
 
   return (
-    <div className="fixed bottom-0 left-8 z-10 hidden md:flex flex-col items-center space-y-4">
+    <div className="fixed bottom-0 left-5 z-10 hidden md:flex flex-col items-center space-y-4">
       {links.map((link, index) => (
         <a
           key={index}
