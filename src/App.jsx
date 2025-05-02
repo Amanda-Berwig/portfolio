@@ -11,18 +11,7 @@ function App() {
   return (
     <div className="min-h-screen">
       <Navbar />
-      <main
-        className="bg-gradient-to-br from-black via-cyan-900 to-gray-900
-
-
-
-
-
-
-
-
-"
-      >
+      <main className="bg-gradient-to-br from-black via-cyan-900 to-gray-900">
         <Hero />
         <About />
         <Projects />
