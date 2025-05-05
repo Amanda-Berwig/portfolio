@@ -4,15 +4,15 @@ const About = () => {
   return (
     <section id="about" className="py-16">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-gray-600">
+        <h2 className="text-3xl font-bold text-center mb-12 text-slate-50">
           Sobre Mim
         </h2>
         <div className="max-w-4xl mx-auto">
-          <div className="p-8 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-4 text-gray-600">
+          <div className="p-8 rounded-lg shadow-md text-justify">
+            {/* <h3 className="text-xl font-semibold mb-4 text-slate-50">
               Minha Trajetória
-            </h3>
-            <p className="text-gray-500 mb-6 ">
+            </h3> */}
+            <p className="text-slate-200 mb-6 ">
               Iniciei minha carreira em Biomedicina, atuando em ambientes de
               alta demanda, onde desenvolvi habilidades essenciais para
               trabalhar sob pressão e seguir protocolos rigorosos. Motivada pela
@@ -21,25 +21,12 @@ const About = () => {
               minha experiência anterior a novos conhecimentos na área da
               tecnologia
             </p>
-
-            <h3 className="text-xl font-semibold mb-4 text-gray-600">
-              Transição de Carreira
-            </h3>
-            <p className="text-gray-500 mb-6">
-              Minha jornada de transição começou com [como começou - cursos,
-              bootcamp, etc]. Enfrentei desafios como [desafios enfrentados],
-              mas cada obstáculo superado fortaleceu minha determinação e
-              ampliou meu conhecimento técnico.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-4 text-gray-600">
-              Motivações
-            </h3>
-            <p className="text-gray-500 mb-6">
-              O que me motiva como desenvolvedor é [suas motivações - resolver
-              problemas complexos, criar interfaces intuitivas, etc]. Acredito
-              que [sua filosofia de trabalho/desenvolvimento] e busco
-              constantemente aprimorar minhas habilidades e conhecimentos.
+            <p className="text-slate-50 mb-6">
+              Atualmente, me dedico integralmente aos estudos de programação,
+              com foco em desenvolvimento front-end utilizando React. Busco uma
+              oportunidade para atuar em projetos inovadores, em um ambiente
+              colaborativo onde eu possa contribuir com meus conhecimentos e
+              continuar evoluindo como desenvolvedora
             </p>
 
             {/* <div className="mt-8 grid grid-cols-2 md:grid-cols-4 gap-4">
