@@ -47,7 +47,8 @@
         "title": "Alura Books",
         "description": "E-commerce, uma livraria online de livros sobre tecnologia."
       }
-    }
+    },
+    "textfooter": "Desenvolvedora Front-end especializada em criar experiências web incríveis."
   },
   "en": {
     "home": "Home",
@@ -97,6 +98,7 @@
         "title": "Alura Books",
         "description": "E-commerce, an online bookstore for technology books."
       }
-    }
+    },
+    "textfooter": "Front-end Developer specialized in creating amazing web experiences."
   }
 }

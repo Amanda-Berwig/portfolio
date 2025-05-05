@@ -1,17 +1,16 @@
 import React from "react";
+import { useLanguage } from "./Contexts/LanguageContext";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const { translations } = useLanguage();
 
   return (
     <footer className="py-8">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-center items-center">
           <div className="mb-2 md:mb-0">
-            <p className="text-slate-50">
-              Desenvolvedora Front-end especializada em criar experiências web
-              incríveis.
-            </p>
+            <p className="text-slate-50">{translations.textfooter}</p>
           </div>
           <div className="flex flex-col md:flex-row md:items-center"></div>
         </div>
