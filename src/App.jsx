@@ -16,9 +16,9 @@ function App() {
         <About />
         <Projects />
         <Contact />
+        <Footer />
+        <SideLinks />
       </main>
-      <Footer />
-      <SideLinks />
     </div>
   );
 }
