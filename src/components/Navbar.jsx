@@ -52,14 +52,14 @@ const Navbar = () => {
               {translations.projects}
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="#contact"
               className="hover:text-cyan-300 transition duration-300"
             >
               {translations.contact}
             </a>
-          </li>
+          </li> */}
           <li className="hover:-translate-0.5 transform transition-all duration-300 ease-in-out">
             <a
               href="/curriculo-amanda.pdf"
