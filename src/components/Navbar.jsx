@@ -5,7 +5,7 @@ const Navbar = () => {
   const { language, switchLanguage, translations } = useLanguage();
 
   return (
-    <nav className="fixed top-0 left-0 text-lg w-full text-white shadow-md z-50">
+    <nav className="fixed top-0 left-0 text-lg w-full text-white bg-gradient-to-br from-black via-gray-900  to-cyan-900 shadow-md z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
         <div className="text-xl font-bold ">
           <button
