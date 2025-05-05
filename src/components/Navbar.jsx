@@ -5,12 +5,12 @@ const Navbar = () => {
   const { language, switchLanguage, translations } = useLanguage();
 
   return (
-    <nav className="fixed top-0 left-0 text-lg w-full text-white bg-gradient-to-br from-black via-gray-900  to-cyan-900 shadow-md z-50">
-      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+    <nav className="fixed top-0 left-0 text-sm md:text-lg w-full text-white bg-gradient-to-br from-black via-gray-900  to-cyan-900 shadow-md z-50">
+      <div className="container mx-auto px-1 md:px-4 py-3 flex justify-between items-center">
         <div className="text-xl font-bold ">
           <button
             onClick={switchLanguage}
-            className="text-base px-4 py-2 transition"
+            className="text-xs md:text-base px-3 md:px-4 py-2 transition"
           >
             <span>
               <span
@@ -27,7 +27,7 @@ const Navbar = () => {
             </span>
           </button>
         </div>
-        <ul className="flex space-x-10 items-center">
+        <ul className="flex space-x-3 md:space-x-10 items-center">
           <li>
             <a
               href="#home"
