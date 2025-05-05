@@ -13,11 +13,13 @@ const About = () => {
               Minha Trajetória
             </h3>
             <p className="text-gray-500 mb-6 ">
-              Iniciei minha carreira em [área anterior], onde desenvolvi
-              habilidades valiosas em [habilidades relevantes]. Após [X
-              anos/meses], decidi fazer uma transição para a área de
-              desenvolvimento web, motivado pela paixão por tecnologia e pela
-              vontade de criar soluções inovadoras.
+              Iniciei minha carreira em Biomedicina, atuando em ambientes de
+              alta demanda, onde desenvolvi habilidades essenciais para
+              trabalhar sob pressão e seguir protocolos rigorosos. Motivada pela
+              paixão por tecnologia e pelo desejo de criar soluções inovadoras,
+              decidi fazer uma transição para o desenvolvimento web, unindo
+              minha experiência anterior a novos conhecimentos na área da
+              tecnologia
             </p>
 
             <h3 className="text-xl font-semibold mb-4 text-gray-600">
