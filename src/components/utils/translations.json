@@ -13,7 +13,41 @@
     "AboutMe": "Sobre mim",
     "descriptionAbout": "Iniciei minha carreira em Biomedicina, atuando em ambientes de alta demanda, onde desenvolvi habilidades essenciais para trabalhar sob pressão e seguir protocolos rigorosos. Motivada pela paixão por tecnologia e pelo desejo de criar soluções inovadoras, decidi fazer uma transição para o desenvolvimento web, unindo minha experiência anterior a novos conhecimentos na área da tecnologia.",
     "descriptionAbout2": "Atualmente, me dedico integralmente aos estudos de programação, com foco em desenvolvimento front-end utilizando React. Busco uma oportunidade para atuar em projetos inovadores, em um ambiente colaborativo onde eu possa contribuir com meus conhecimentos e continuar evoluindo como desenvolvedora",
-    "MyProjects": "Meus Projetos"
+    "MyProjects": "Meus Projetos",
+    "projectsDetails": {
+      "project1": {
+        "title": "GitHub User Search App",
+        "description": "Página que consome a API do GitHub para buscar usuários e exibir informações detalhadas."
+      },
+      "project2": {
+        "title": "Lista de Tarefas",
+        "description": "Ferramenta para gerenciamento de tarefas com recursos de editar, filtrar e remover tarefas."
+      },
+      "project3": {
+        "title": "Organo",
+        "description": "Painel para visualizar a estrutura hierárquica de sua equipe e auxiliar a gerir os colaboradores, separando-os por times."
+      },
+      "project4": {
+        "title": "Code Connect",
+        "description": "Plataforma de blog com sistema de comentários, categorias e pesquisa avançada."
+      },
+      "project5": {
+        "title": "Avanti Innovation Class",
+        "description": "Site responsivo com campo de busca interativo e carrosséis funcionais."
+      },
+      "project6": {
+        "title": "Fokus",
+        "description": "Temporizador com a técnica Pomodoro, com cronômetro e lista de tarefas."
+      },
+      "project7": {
+        "title": "Jogo do Número Secreto",
+        "description": "Aplicação interativa na qual o usuário deve adivinhar um número aleatório entre 1 e 10. Utiliza ResponsiveVoice para fornecer feedback por voz, tornando a experiência mais dinâmica e acessível."
+      },
+      "project8": {
+        "title": "Alura Books",
+        "description": "E-commerce, uma livraria online de livros sobre tecnologia."
+      }
+    }
   },
   "en": {
     "home": "Home",
@@ -29,6 +63,40 @@
     "AboutMe": "About me",
     "descriptionAbout": "I started my career in Biomedicine, working in high-demand environments where I developed essential skills to work under pressure and follow strict protocols. Motivated by a passion for technology and the desire to create innovative solutions, I decided to transition to web development, combining my previous experience with new knowledge in the technology field.",
     "descriptionAbout2": "Currently, I am fully dedicated to programming studies, focusing on front-end development using React. I am looking for an opportunity to work on innovative projects in a collaborative environment where I can contribute my knowledge and continue to evolve as a developer.",
-    "MyProjects": "My Projects"
+    "MyProjects": "My Projects",
+    "projectsDetails": {
+      "project1": {
+        "title": "GitHub User Search App",
+        "description": "Application that consumes the GitHub API to search for users and display detailed information."
+      },
+      "project2": {
+        "title": "To Do List",
+        "description": "Task management tool with features to edit, filter, and remove tasks."
+      },
+      "project3": {
+        "title": "Organo",
+        "description": "Panel to view the hierarchical structure of your team and help manage employees, separating them by teams."
+      },
+      "project4": {
+        "title": "Code Connect",
+        "description": "Blog platform with a commenting system, categories, and advanced search."
+      },
+      "project5": {
+        "title": "Avanti Innovation Class",
+        "description": "Responsive website with an interactive search field and functional carousels."
+      },
+      "project6": {
+        "title": "Fokus",
+        "description": "Timer with the Pomodoro technique, with a stopwatch and task list."
+      },
+      "project7": {
+        "title": "Secret Number Game",
+        "description": "Interactive application where the user must guess a random number between 1 and 10. It uses ResponsiveVoice to provide voice feedback, making the experience more dynamic and accessible."
+      },
+      "project8": {
+        "title": "Alura Books",
+        "description": "E-commerce, an online bookstore for technology books."
+      }
+    }
   }
 }

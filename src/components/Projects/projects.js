@@ -10,9 +10,7 @@ import P08 from "../../assets/preview-alurabooks.png";
 export const projects = [
   {
     id: 1,
-    title: "GitHub User Search App ",
-    description:
-      "Aplicativo que consome a API do GitHub para buscar usuários e exibir informações detalhadas.",
+    translationKey: "project1",
     image: P01,
     tags: ["React", "Tailwind CSS", "Git Hub API"],
     github: "https://github.com/Amanda-Berwig/busca-github",
@@ -20,9 +18,7 @@ export const projects = [
   },
   {
     id: 2,
-    title: "To Do List",
-    description:
-      "Aplicativo de gerenciamento de tarefas com recursos de editar, filtrar e remover tarefas.",
+    translationKey: "project2",
     image: P02,
     tags: ["React", "Tailwind CSS"],
     github: "https://github.com/Amanda-Berwig/ToDoList",
@@ -30,9 +26,7 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Organo",
-    description:
-      "Painel para visualizar a estrutura hierárquica de sua equipe e auxiliar a gerir os colaboradores, separando-os por times.",
+    translationKey: "project3",
     image: P03,
     tags: ["React", "CSS"],
     github: "https://github.com/Amanda-Berwig/organo",
@@ -40,9 +34,7 @@ export const projects = [
   },
   {
     id: 4,
-    title: "Code Connect",
-    description:
-      "Plataforma de blog com sistema de comentários, categorias e pesquisa avançada.",
+    translationKey: "project4",
     image: P04,
     tags: ["React", "CSS"],
     github: "https://github.com/Amanda-Berwig/Code-Connect",
@@ -50,9 +42,7 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Avanti Innovation Class",
-    description:
-      "Site responsivo com campo de busca interativo e carrosséis funcionais",
+    translationKey: "project5",
     image: P05,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Amanda-Berwig/Avanti--innovation-class",
@@ -60,9 +50,7 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Fokus",
-    description:
-      "Temporizador com a técnica Pomodoro, com cronômetro e lista de tarefas.",
+    translationKey: "project6",
     image: P06,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/Amanda-Berwig/Fokus",
@@ -70,8 +58,7 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Jogo do Número Secreto",
-    description: `Aplicação interativa na qual o usuário deve adivinhar um número aleatório entre 1 e 10. Utiliza ResponsiveVoice para fornecer feedback por voz, tornando a experiência mais dinâmica e acessível.`,
+    translationKey: "project7",
     image: P07,
     tags: ["HTML", "CSS", "JavaScript", "Responsive voice"],
     github: "https://github.com/Amanda-Berwig/jogo-do-numero-secreto",
@@ -79,8 +66,7 @@ export const projects = [
   },
   {
     id: 8,
-    title: "Alura Books",
-    description: "E-commerce, uma livraria online de livros sobre tecnologia.",
+    translationKey: "project8",
     image: P08,
     tags: ["HTML", "CSS", "JavaScript", "Swiper JS"],
     github: "https://github.com/Amanda-Berwig/AluraBooks",

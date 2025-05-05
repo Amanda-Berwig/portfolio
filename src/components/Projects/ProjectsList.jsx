@@ -3,13 +3,15 @@ import { motion } from "motion/react";
 import { projects } from "./projects";
 import { ExternalLink } from "lucide-react";
 import Github from "lucide-react/dist/esm/icons/github";
+import { useLanguage } from "../Contexts/LanguageContext";
 
 const ProjectsList = () => {
+  const { translations } = useLanguage();
   return (
     <section id="projects" className="py-24 ">
       <div className="container mx-auto px-6 md:px-12">
         <h2 className="text-3xl font-extrabold text-start text-slate-50 mb-20">
-          Meus Projetos
+          {translations.MyProjects}
         </h2>
 
         <div className="flex flex-col gap-32">
@@ -42,11 +44,14 @@ const ProjectsList = () => {
                 }`}
               >
                 <h3 className="text-2xl font-bold text-slate-50 mb-4">
-                  {project.title}
+                  {translations.projectsDetails[project.translationKey].title}
                 </h3>
 
                 <p className="text-white mb-6 leading-relaxed text-justify p-4  ">
-                  {project.description}
+                  {
+                    translations.projectsDetails[project.translationKey]
+                      .description
+                  }
                 </p>
 
                 <div
