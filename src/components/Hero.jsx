@@ -20,7 +20,8 @@ const Hero = () => {
           </p>
           <div className="flex space-x-4">
             <a
-              href="#contact"
+              href="https://mail.google.com/mail/?view=cm&to=amanda.berwig@email.com"
+              target="blank"
               className="px-4 md:px-6 py-3 bg-cyan-700 hover:bg-cyan-600 text-slate-50 rounded-md transition duration-300"
             >
               {translations.contactMe}
