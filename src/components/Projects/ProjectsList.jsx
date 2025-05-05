@@ -10,7 +10,7 @@ const ProjectsList = () => {
   return (
     <section id="projects" className="py-24 ">
       <div className="container mx-auto px-6 md:px-12">
-        <h2 className="text-3xl font-extrabold text-start text-slate-50 mb-20">
+        <h2 className="text-3xl font-extrabold text-center md:text-start text-slate-50 mb-20">
           {translations.MyProjects}
         </h2>
 
@@ -18,7 +18,7 @@ const ProjectsList = () => {
           {projects.map((project, index) => (
             <motion.div
               key={project.id}
-              className={`flex flex-col md:flex-row items-center gap-10 shadow-2xl rounded-2xl ${
+              className={`flex flex-col md:flex-row items-center md:mx-6 gap-10 shadow-2xl rounded-2xl ${
                 index % 2 !== 0 ? "md:flex-row-reverse" : ""
               }`}
               initial={{ opacity: 0, y: 50 }} // Começa invisível e deslocado pra baixo
@@ -39,15 +39,17 @@ const ProjectsList = () => {
 
               {/* Conteúdo  */}
               <div
-                className={`md:w-1/2 w-full ${
-                  index % 2 !== 0 ? "text-left md:pl-12" : "text-right md:pr-12"
+                className={`md:w-1/2 w-full p-4 md:p-0 text-center ${
+                  index % 2 !== 0
+                    ? "md:text-left md:pl-8"
+                    : "md:text-right md:pr-8"
                 }`}
               >
                 <h3 className="text-2xl font-bold text-slate-50 mb-4">
                   {translations.projectsDetails[project.translationKey].title}
                 </h3>
 
-                <p className="text-white mb-6 leading-relaxed text-justify p-4  ">
+                <p className="text-white mb-6 leading-relaxed text-justify py-4">
                   {
                     translations.projectsDetails[project.translationKey]
                       .description
@@ -55,14 +57,14 @@ const ProjectsList = () => {
                 </p>
 
                 <div
-                  className={`flex flex-wrap gap-2 mb-6 ${
-                    index % 2 !== 0 ? "justify-start" : "justify-end"
+                  className={`flex flex-wrap gap-2 mb-6 justify-center ${
+                    index % 2 !== 0 ? "md:justify-start" : "md:justify-end"
                   }`}
                 >
                   {project.tags.map((tag, idx) => (
                     <span
                       key={idx}
-                      className="bg-cyan-700 hover:bg-cyan-600 text-white text-sm font-medium px-3 py-1 rounded-full"
+                      className="bg-cyan-700 hover:bg-cyan-600 text-white text-sm font-medium px-3 py-1 mb-8 rounded-full"
                     >
                       {tag}
                     </span>
