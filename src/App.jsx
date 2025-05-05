@@ -6,20 +6,23 @@ import Projects from "./components/Projects/ProjectsList";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import SideLinks from "./components/SideLinks";
+import { LanguageProvider } from "./components/Contexts/LanguageContext";
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <Navbar />
-      <main className="bg-gradient-to-br from-black via-cyan-900 to-gray-900">
-        <Hero />
-        <About />
-        <Projects />
-        <Contact />
-        <Footer />
-        <SideLinks />
-      </main>
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen">
+        <Navbar />
+        <main className="bg-gradient-to-br from-black via-cyan-900 to-gray-900">
+          <Hero />
+          <About />
+          <Projects />
+          <Contact />
+          <Footer />
+          <SideLinks />
+        </main>
+      </div>
+    </LanguageProvider>
   );
 }
 

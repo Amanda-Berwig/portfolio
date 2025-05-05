@@ -1,17 +1,39 @@
 import React from "react";
+import { useLanguage } from "./Contexts/LanguageContext";
 
 const Navbar = () => {
+  const { language, switchLanguage, translations } = useLanguage();
+
   return (
     <nav className="fixed top-0 left-0 text-lg w-full text-white shadow-md z-50">
-      <div className="container mx-auto px-4 py-3 flex justify-end items-center">
-        {/* <div className="text-xl font-bold">Portfolio</div> */}
+      <div className="container mx-auto px-4 py-3 flex justify-between items-center">
+        <div className="text-xl font-bold ">
+          <button
+            onClick={switchLanguage}
+            className="text-base px-4 py-2 transition"
+          >
+            <span>
+              <span
+                className={language === "pt" ? "font-bold text-cyan-300" : ""}
+              >
+                pt
+              </span>
+              {"   |   "}
+              <span
+                className={language === "en" ? "font-bold text-cyan-300" : ""}
+              >
+                en
+              </span>
+            </span>
+          </button>
+        </div>
         <ul className="flex space-x-10 items-center">
           <li>
             <a
               href="#home"
               className="hover:text-cyan-300 transition duration-300"
             >
-              Home
+              {translations.home}
             </a>
           </li>
           <li>
@@ -19,7 +41,7 @@ const Navbar = () => {
               href="#about"
               className="hover:text-cyan-300 transition duration-300"
             >
-              Sobre
+              {translations.about}
             </a>
           </li>
           <li>
@@ -27,7 +49,7 @@ const Navbar = () => {
               href="#projects"
               className="hover:text-cyan-300 transition duration-300"
             >
-              Projetos
+              {translations.projects}
             </a>
           </li>
           <li>
@@ -35,7 +57,7 @@ const Navbar = () => {
               href="#contact"
               className="hover:text-cyan-300 transition duration-300"
             >
-              Contato
+              {translations.contact}
             </a>
           </li>
           <li className="hover:-translate-0.5 transform transition-all duration-300 ease-in-out">
@@ -45,7 +67,7 @@ const Navbar = () => {
               rel="noopener noreferrer"
               className="border border-cyan-300 rounded py-2 px-4 hover:shadow-[3px_3px_0_0_rgba(103,232,249,1)] transform transition-all duration-200 ease-in-out"
             >
-              Currículo
+              {translations.resume}
             </a>
           </li>
         </ul>

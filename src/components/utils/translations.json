@@ -1,0 +1,34 @@
+{
+  "pt": {
+    "home": "Home",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "resume": "Currículo",
+    "greeting": "Olá, eu sou",
+    "jobTitle": "Desenvolvedora Front-end",
+    "description": "Apaixonada por criar interfaces interativas e responsivas que proporcionam experiências incríveis aos usuários.",
+    "contactMe": "Entre em contato",
+    "viewProjects": "Ver Projetos",
+    "AboutMe": "Sobre mim",
+    "descriptionAbout": "Iniciei minha carreira em Biomedicina, atuando em ambientes de alta demanda, onde desenvolvi habilidades essenciais para trabalhar sob pressão e seguir protocolos rigorosos. Motivada pela paixão por tecnologia e pelo desejo de criar soluções inovadoras, decidi fazer uma transição para o desenvolvimento web, unindo minha experiência anterior a novos conhecimentos na área da tecnologia.",
+    "descriptionAbout2": "Atualmente, me dedico integralmente aos estudos de programação, com foco em desenvolvimento front-end utilizando React. Busco uma oportunidade para atuar em projetos inovadores, em um ambiente colaborativo onde eu possa contribuir com meus conhecimentos e continuar evoluindo como desenvolvedora",
+    "MyProjects": "Meus Projetos"
+  },
+  "en": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "resume": "Resume",
+    "greeting": "Hello, I'm",
+    "jobTitle": "Front-end Developer",
+    "description": "Passionate about creating interactive and responsive interfaces that provide incredible experiences for users.",
+    "contactMe": "Contact me",
+    "viewProjects": "View Projects",
+    "AboutMe": "About me",
+    "descriptionAbout": "I started my career in Biomedicine, working in high-demand environments where I developed essential skills to work under pressure and follow strict protocols. Motivated by a passion for technology and the desire to create innovative solutions, I decided to transition to web development, combining my previous experience with new knowledge in the technology field.",
+    "descriptionAbout2": "Currently, I am fully dedicated to programming studies, focusing on front-end development using React. I am looking for an opportunity to work on innovative projects in a collaborative environment where I can contribute my knowledge and continue to evolve as a developer.",
+    "MyProjects": "My Projects"
+  }
+}
