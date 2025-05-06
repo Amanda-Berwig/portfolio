@@ -17,8 +17,9 @@ function App() {
           <Hero />
           <About />
           <Projects />
-          <Footer />
           <SideLinks />
+          <Footer />
+
           {/* <Contact /> */}
         </main>
       </div>

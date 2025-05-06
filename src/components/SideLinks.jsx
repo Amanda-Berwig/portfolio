@@ -29,7 +29,7 @@ const SideLinks = () => {
   ];
 
   return (
-    <div className="fixed bottom-0 left-5 z-10 hidden md:flex flex-col items-center space-y-4">
+    <div className="md:fixed md:bottom-0 md:left-5 z-10 flex justify-center flex-row  md:flex-col items-center space-x-4 md:space-x-0 md:space-y-4">
       {links.map((link, index) => (
         <a
           key={index}
@@ -42,7 +42,7 @@ const SideLinks = () => {
           {link.icon}
         </a>
       ))}
-      <div className="w-0.5 h-24 bg-slate-50 mt-4" />
+      <div className="w-0.5 h-24 bg-slate-50 mt-4 hidden md:block" />
     </div>
   );
 };
