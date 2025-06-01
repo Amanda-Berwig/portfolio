@@ -49,6 +49,14 @@ export const projects = [
     demo: "https://amanda-berwig.github.io/Avanti--innovation-class/",
   },
   {
+    id: 9,
+    translationKey: "project9",
+    image: P09,
+    tags: ["JavaScript", "React", "Puppeteer", "Node.js", "Express"],
+    github: "https://github.com/Amanda-Berwig/comparador",
+    demo: "#",
+  },
+  {
     id: 6,
     translationKey: "project6",
     image: P06,
