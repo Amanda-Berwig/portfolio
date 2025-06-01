@@ -6,6 +6,7 @@ import P05 from "../../assets/preview-innovation.png";
 import P06 from "../../assets/preview-fokus.png";
 import P07 from "../../assets/preview-jogo.png";
 import P08 from "../../assets/preview-alurabooks.png";
+import P09 from "../../assets/preview-comparador.png";
 
 export const projects = [
   {
