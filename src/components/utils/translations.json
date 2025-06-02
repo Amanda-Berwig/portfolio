@@ -46,6 +46,10 @@
       "project8": {
         "title": "Alura Books",
         "description": "E-commerce, uma livraria online de livros sobre tecnologia."
+      },
+      "project9": {
+        "title": "Price Comparator",
+        "description": "Fullstack project in development that compares product prices across online pharmacies. The goal is to make it easier for users to find the best deals and save money on medications and beauty products."
       }
     },
     "textfooter": "Desenvolvedora Front-end especializada em criar experiências web incríveis."
@@ -97,6 +101,10 @@
       "project8": {
         "title": "Alura Books",
         "description": "E-commerce, an online bookstore for technology books."
+      },
+      "project9": {
+        "title": "Comparador de Preços",
+        "description": "Projeto fullstack em desenvolvimento que compara preços de produtos entre farmácias online"
       }
     },
     "textfooter": "Front-end Developer specialized in creating amazing web experiences."
